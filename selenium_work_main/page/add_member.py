@@ -19,7 +19,7 @@ class AddMember(BasePage):
 
 
     def get_member(self, value):
-        self.waif_for_click((By.CSS_SELECTOR, ".ww_checkbox"))
+        self.wait_for_click((By.CSS_SELECTOR, ".ww_checkbox"))
 
         cur_page, total_page = self.update_page()
 

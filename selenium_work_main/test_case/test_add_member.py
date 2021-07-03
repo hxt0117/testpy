@@ -11,6 +11,3 @@ class TestAddMember:
         add_member.add_member()
         assert add_member.get_member('test152')
 
-    def test_split(self):
-        a = '1/3'
-        print(a.split('/', 1))
